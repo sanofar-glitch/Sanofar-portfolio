@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>M.Sanofar | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="https://kit.fontawesome.com/a8a5373f61.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo1.png" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+      <p>MERN Stack developer</p>
+      <h1>Hi, I'm <span>Sanofar</span> <br>From Coimbatore </h1>
+    </div>
+  </div>
+</div>
+
+<!-----------------about--------------->
+<div id="about">
+
+  <div class="container">
+    <div class="row">
+
+       <div class="about-col-1">
+        <img src="images/user1.png">
+       </div>
+
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>I am a  final-year BE (Computer science) at P.A. College of Engineering and Technology, seeking an internship or entry-level role. As a Full Stack developer , Passionate and detail-oriented Full Stack Developer with hands-on experience in building responsive web applications using HTML, CSS, and JavaScript, and a solid programming with Python and Java. Eager to contribute technical skills and creativity to real-world projects, continuously learn new technologies, and collaborate with dynamic teams to deliver efficient and scalable solutions..</p>
+      
+      <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab(event,'Technical skills')">Technical Skills</p>
+             <p class="tab-links" onclick="opentab(event,'Soft skills')" >Soft SKills</p>
+             <p class="tab-links" onclick="opentab(event,'education')">Education</p>
+      </div>
+      <div class="tab-contents active-tab" id="Technical skills">
+          <ul>
+             <li><span>Front-end</span><br>develper</li>
+             <li><span>Web development</span><br>web page development</li>
+             <li><span>Back-end development</span><br>Database</li>
+          </ul>
+      </div>
+      <div class="tab-contents" id="Soft skills">
+        <ul>
+          <li><span>Communication skills</span><br>This includes both written and verbal communication, active listening, and clear articulation of ideas.</li>
+          <li><span>Teamwork</span><br>The ability to work effectively with others, contribute to a healthy team environment.</li>
+          <li><span>Problem-solving</span><br>The ability to identify, analyze, and solve problems in a logical and systematic way.</li>
+          <li><span>Adaptability</span><br>The ability to adjust to new situations, learn quickly, and be flexible in the face of change.</li>
+        </ul>
+      </div>
+      <div class="tab-contents" id="education">
+        <ul>
+          <li><span>SSLC</span><br>Arokiamatha Matriculation Higher Secondary School </li>
+          <li><span>HSC</span><br>Arokiamatha Matriculation Higher Secondary School</li>
+          <li><span>B.E(COMPUTER SCIENCE)</span><br>P.A.College of Engineering and Technology,coimbatore.</li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------------------services------------>
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-computer"></i>
+        <h2>Front-end</h2>
+        <p>Designing and developing the visual part of websites and web apps that users interact with.</p>
+          <a href="#">Learn more</a>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-server"></i>
+        <h2>Backend</h2>
+        <p>Developing the server-side logic and functionality to support front-end features and data flow.</p>
+          <a href="#">Learn more</a>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-database"></i>
+        <h2>Database</h2>
+        <p>Storing, managing, and retrieving data securely and efficiently.</p>
+          <a href="#">Learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--------------portfolio------------>
+
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/work-1.png">
+        <div class="layer">
+          <h3>Social Media Web Apps</h3>
+          <p>The app connects you to the talented 
+            people around the world download it from
+             play store.</p>
+             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="images/work-2.png">
+        <div class="layer">
+          <h3>Music Web Apps</h3>
+          <p>The app connects you to the talented 
+            people around the world download it from
+             play store.</p>
+             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="images/work-3.png">
+        <div class="layer">
+          <h3>Online Shopping Web Apps</h3>
+          <p>The app connects you to the talented 
+            people around the world download it from
+             play store.</p>
+             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+  </div>
+</div>
+
+<!-------contact---->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>sanofartharik@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>+91 88381 86130</p>
+        <div class="social-icons">
+          <a href="https://github.com/sanofar-glitch"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/sanofar-tharik-b309a3308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="your name" required>
+          <input type="email" name="Email" placeholder="your email" required>
+          <textarea name="Message" rows="6" placeholder="your message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>        
+      </form>
+      <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>copyright © sanofar<i class="fa-solid fa-heart"></i></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
